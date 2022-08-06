@@ -61,21 +61,22 @@
 # HINT: Printed output should say - The data type of the input value is : int/float/string/etc
 # '''
 
-a = input("Enter anything: ")
+# a = input("Enter anything: ")
 
 # # with out eval function
 # if (a == '0' or a == '1'):
 #     print("Datatype of Entered value is Bool")
-# elif (a.isdigit()):
+# elif (a.isdecimal):
 #     if(a.count('.')==1):
 #         print("Datatype of Entered value is float")
 #     if(a.count('.')>1):
 #         print("Consider Datatype of Entered value is string")
-#     print ("Datatype of Entered value is int")
-# else
+#     if(a.count('.')==0):
+#         print ("Datatype of Entered value is int")
+# else:
 #     print ("Datatype of Entered value is Str")
 
-# #With the help of eval
+#With the help of eval
 
 # try:
 #     x = type(eval(a))
